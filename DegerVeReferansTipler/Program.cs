@@ -14,6 +14,7 @@ namespace DegerVeReferansTipler
             sayi2 = 65;
             //sayi ? 
             // 30
+            // Test commit
 
 
             int[] sayilar1 = new int[] { 10, 20, 30 };
