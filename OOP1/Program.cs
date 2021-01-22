@@ -39,6 +39,22 @@ namespace OOP1
 
 
 
+
+            productManager.Topla2(3, 6);
+            // void ile int arasındaki fark void ile yaptığımızda  2 sayıyı toplar ama onu kullanmak istediğimizde 
+            // yani 6 yı kullanmak istediğimizde kullanamayız. Çünkü return edilmiyor , sadece ekrana yazdırıyor.
+            // Gidip 2 le çarpmak istediğimde çarpamam. Çünkü console a sadece yazıyor. 
+
+
+
+            // Kredi geri dönüş oranı gibi düşün
+            // Git hesapla sonra onun üzerinde çalış . Bu yüzden return kullanıyoruz.
+            // O yüzden void yerine int kullanıldıi.ProductManger class ında
+            int toplamSonucu = productManager.Topla(3, 6);
+            Console.WriteLine(toplamSonucu * 2);
+
+
+
         }
     }
 }
