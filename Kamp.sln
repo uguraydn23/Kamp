@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{9B77B3D5-1FA2-4E25-83D9-17AD4F4B4191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{A9793BF4-69BC-438A-A820-CC90808138B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{A9793BF4-69BC-438A-A820-CC90808138B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{9FA8C5A5-76DD-48C4-A084-F5F296E0AB5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{9FA8C5A5-76DD-48C4-A084-F5F296E0AB5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oop2", "Oop2\Oop2.csproj", "{B7FB91F5-F36E-4D3E-ADEC-75C75111B337}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{9FA8C5A5-76DD-48C4-A084-F5F296E0AB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FA8C5A5-76DD-48C4-A084-F5F296E0AB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FA8C5A5-76DD-48C4-A084-F5F296E0AB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7FB91F5-F36E-4D3E-ADEC-75C75111B337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7FB91F5-F36E-4D3E-ADEC-75C75111B337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7FB91F5-F36E-4D3E-ADEC-75C75111B337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7FB91F5-F36E-4D3E-ADEC-75C75111B337}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
