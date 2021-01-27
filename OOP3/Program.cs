@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace OOP3
 {
@@ -29,10 +30,32 @@ namespace OOP3
 
 
             BasvuruManager basvuruManager = new BasvuruManager();
-            basvuruManager.krediBasvuruYap(tasitKrediManager);
+          // basvuruManager.krediBasvuruYap(tasitKrediManager);
 
 
-            
+
+            List<IKrediManager> kredier = new List<IKrediManager> { konutKrediManager , tasitKrediManager};
+            // basvuruManager.KrediOnBilgilendirmesiYap(kredier);
+
+
+
+
+
+
+
+            BasvuruManager basvuruManager1 = new BasvuruManager();
+             basvuruManager1.krediBasvuruYap(tasitKrediManager , new DatabaseLoggerService());
+
+            //yada
+            //
+            // ILoggerService dbloggerService = new DatabaseLoggerService();
+            // ILoggerService loggerService = new FileLoggerService();
+
+
+
+
+
+
         }
     }
 }

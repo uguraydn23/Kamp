@@ -4,9 +4,12 @@ using System.Text;
 
 namespace OOP3
 {
-    //Eğer bir interface varsa bu method u kullanmalı
+    // Eğer bir interface varsa bu method u kullanmalı
     // Referans alan herkes hesapla methodunu kullanmalıdır
-    //Okunurluğunu arttırmakiçin Baş harfi I Büyük olur
+    // Okunurluğunu arttırmakiçin Baş harfi I Büyük olur
+    // 
+
+
     interface IKrediManager
     {
         public void Hesapla();
